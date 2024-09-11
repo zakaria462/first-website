@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin: 15px;
+}
+button:hover{
+    background-color: #1172c2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.orders{
+    margin-top: 99px;
+}
+.commande{
+    margin-bottom: 50px;
+}
+h2{
+    padding: 15px;
+}

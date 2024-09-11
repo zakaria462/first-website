@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webleb</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="header">
+        <div class="stiky">
+        <div  >
+           <a href="index.html"><img src="pictures/logo.png" class="logo"></a>
+             </div>
+        <div class="top-nav">
+            <nav class="navbar">
+            <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="index.html">Products</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html"class="active1">Contact</a></li>
+               <li><a href="login.php">Account</a></li>
+            </ul>
+            </nav>  
+            <div class="top-icons">
+                <i class="fa fa-search" onclick="showbar()"></i>
+                <i class="fa fa-user" onclick="toggleProfile()" ></i>
+                <i class="fa fa-cart-plus"></i>
+            </div>
+     </div>
+     </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <section class="contact-form">
+      <h1 class="heading">Get In Touch!</h1>
+      
+      <div class="contactForm">
+          <form action="#">
+           <h1 class="sub-heading">Need Support !</h1>
+           <p class="para para2">Contact us for a quote , help to join the them.</p>
+           <input type="text" class="input" placeholder="your name">
+           <input type="text" class="input" placeholder="your email">
+           <input type="text" class="input" placeholder="your Subject">
+           <textarea class="input" cols="30" rows="5" placeholder="Your message..."></textarea>
+           <input type="submit" class="input submit" value="Send Message">
+          </form>
+  
+          <div class="map-container">
+              <div class="mapBg"></div>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106376.56000740414!2d-7.669394253948134!3d33.57240323250469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!5e0!3m2!1sfr!2sma!4v1713017878336!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+  
+      <div class="contactMethod">
+          <div class="method">
+              <i class="fa-solid fa-location-dot contactIcon"></i>
+              <article class="text">
+                  <h1 class="sub-heading">Location</h1>
+                  <p class="para">Casablanca</p>
+              </article>
+          </div>
+  
+          <div class="method">
+              <i class="fa-solid fa-envelope contactIcon"></i>
+              <article class="text">
+                  <h1 class="sub-heading">Email</h1>
+                  <p class="para">Email: team@gmail.com</p>
+              </article>
+          </div>
+  
+          <div class="method">
+              <i class="fa-solid fa-phone contactIcon"></i>
+              <article class="text">
+                  <h1 class="sub-heading">Phone</h1>
+                  <p class="para">0548481421</p>
+              </article>
+          </div>
+      </div>
+     </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section>
+    <div class="container flow-content">
+      <h2 class="section-title">Our team</h2>
+      <h3 class="asking" > You can ask for any question here</h3>
+      <ul role="list" class="grid">
+        <li>
+          <article class="card" data-visible="false">
+            <div class="card__front flow-content">
+              <img class="card__img mx-auto" src="/img/radiant-gradient.png" />
+              <div class="flow-content" data-spacing="sm">
+                <p class="card__name">Saber</p>
+                <p class="card__position">Student</p>
+              </div>
+            </div>
+            <div class="card__back flow-content">
+              <p class="card__name">Saber</p>
+              <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+              <ul role="list" class="card__social flex-group">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter "></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <footer class="card__footer">
+              <button data-card-controller class="card__toggle">
+                <i class="fa-solid fa-plus card__toggle-icon"></i>
+              </button>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article class="card" data-visible="false">
+            <div class="card__front flow-content">
+              <img class="card__img mx-auto" src="/img/flat-mountains.png" />
+              <div class="flow-content" data-spacing="sm">
+                <p class="card__name">Zakaria</p>
+                <p class="card__position">Student</p>
+              </div>
+            </div>
+            <div class="card__back flow-content">
+              <p class="card__name">Zakaria</p>
+              <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+              <ul role="list" class="card__social flex-group">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <footer class="card__footer">
+              <button data-card-controller class="card__toggle">
+                <i class="fa-solid fa-plus card__toggle-icon"></i>
+              </button>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article class="card" data-visible="false">
+            <div class="card__front flow-content">
+              <img class="card__img mx-auto" src="/img/slanted-gradient.png"/>
+              <div class="flow-content" data-spacing="sm">
+                <p class="card__name">Anouar</p>
+                <p class="card__position">Student</p>
+              </div>
+            </div>
+            <div class="card__back flow-content">
+              <p class="card__name">Anouar</p>
+              <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dictum sem.</q>
+              <ul role="list" class="card__social flex-group">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <footer class="card__footer">
+              <button data-card-controller class="card__toggle">
+                <i class="fa-solid fa-plus card__toggle-icon"></i>
+              </button>
+            </footer>
+          </article>
+        </li>   
+      </ul>
+    </div>
+  </section>
+  <div class="bar-search">
+    <div class="box">
+     <div id="form-close">
+     <i class="fas fa-times" id="cp" onclick="hideform()"></i>
+     </div>
+      <input type="text" placeholder="what do you want?">
+       <i   id="close"   class="fa fa-search"></i>
+     </div>
+</div>
+
+
+
+
+
+
+<div class="profil" id="profil">
+  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+  <h1>Zakaria</h1>
+  <ul>
+      <li><a>profil</a></li>
+      <li><a>se deconnecter</a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

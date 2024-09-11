@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronic store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="header">
+    <div class="stiky">
+    <div  >
+       <a href="index.html"><img src="pictures/logo.png" class="logo"></a>
+         </div>
+    <div class="top-nav">
+        <nav class="navbar">
+        <ul>
+          <li><a href="index.html" class="active1">Home</a></li>
+          <li><a href="#product">Products</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="profil.php">Contact</a></li>
+           <li><a href="login.php">Account</a></li>
+        </ul>
+        </nav>  
+        <div class="top-icons">
+            <i class="fa fa-search" onclick="showbar()"></i>
+           <i class="fa fa-user" onclick="toggleProfile()" ></i>
+           <div class="icon-cart">
+            <i class="fa fa-cart-plus" ></i>
+            <span>0</span>
+            </div>
+        </div>
+ </div>
+ </div>
+ </div>
+<div class="row" >
+        <div class="col-2"> <h1>Give you life <br> a new style !</h1>
+        <a href="#product" id="product">
+            <button>Explore Now &#8594;</button>
+        </a>
+        </div>
+        <div class="pc">
+            <img  src="pictures/setup.png" width="450">
+        </div>
+</div>
+<div class="tout" >
+<div class="filtre" >
+<h1 id="titre">Category</h1>
+<div class="categorie">
+    
+     <div class="types">
+        <p>Pc</p>
+        <div class="Pc">
+            <a href="productpc.html"> 
+                <img   src="pictures/pc-portable.webp"   >
+            </a>
+        </div>
+     </div> <div class="types">
+        <p>Caméras</p>
+        <div class="camera">
+            <a href="productcamera.html"> 
+                <img   src="pictures/camera.png"   >
+            </a>
+        </div>
+     </div>
+     <div class="types">
+        <p>Iphone</p>
+        <div class="iphone">
+            <a href="productiphone.html"> 
+                <img   src="pictures/iphone.webp"   >
+            </a>
+        </div>
+     </div>
+     <div class="types">
+        <p>Accesoires</p>
+        <div class="iphone">
+            <a href="accesoires.html"> 
+                <img   src="pictures/chaise.jpg"   >
+            </a>
+        </div>
+     </div>
+  </div>
+</div>
+
+
+
+<section class="service">
+                <div class="single-service">
+                    <img src="pictures/truck.png" alt="">
+                    <h4>100% Free Shipping</h4>
+                    <p>We ship all our products for free as long as you buying within MOROCCO.</p>
+                </div>
+            
+            
+                <div class="single-service">
+                    <img src="pictures/headphone.png" alt="">
+                    <h4>24/7 Support</h4>
+                    <p>Our support team is extremely active, you will get response within 2 minutes.</p>
+                </div>
+           
+           
+                <div class="single-service">
+                    <img src="pictures/undo.png" alt="">
+                    <h4>30 Day Return</h4>
+                    <p>Our 30 day return program is open from customers, just fill up a simple form.</p>
+                </div>
+</section>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="bar-search">
+       <div class="box">
+        <div id="form-close">
+        <i class="fas fa-times" id="cp" onclick="hideform()"></i>
+        </div>
+         <input type="text" placeholder="what do you want?">
+          <i   id="close"   class="fa fa-search"></i>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+</footer>
+
+
+<div class="profil" id="profil">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+    <h1>Zakaria</h1>
+    <ul>
+        <li><a>profil</a></li>
+        <li><a>se deconnecter</a></li>
+    </ul>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+   

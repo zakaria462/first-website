@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: aliceblue;
+        }
+        .confirmation-message {
+            margin-top: 50px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="stiky">
+        <div  >
+           <a href="index.html"><img src="pictures/logo.png" class="logo"></a>
+             </div>
+        <div class="top-nav">
+            <nav class="navbar">
+            <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="index.html"class="active1">Products</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="login.php">Account</a></li>
+            </ul>
+            </nav>  
+            <div class="top-icons">
+                <i class="fa fa-search" onclick="showbar()"></i>
+               <i class="fa fa-user" onclick="toggleProfile()" ></i>
+               <div class="icon-cart">
+                <i class="fa fa-cart-plus" id="shopping"></i>
+                <span class="quantity">0</span>
+                </div>
+            </div>
+     </div>
+     </div>
+     </div>
+<div style="margin-top: 100px;">
+    <h2>Order Confirmation</h2>
+    <div class="confirmation-message">
+        <p>Your order has been successfully placed.</p>
+        <p>Thank you for shopping with us!</p>
+    </div>
+</div>
+</body>
+</html>

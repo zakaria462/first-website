@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(18, 19, 19);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+.header .logo img{
+    left: 10px;
+}
+.header .navbar li a.active1{ 
+    color: #5aacef
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px; 
+}
+.logo{
+    height: auto;
+    width: 99px;
+    margin-left: 50px;
+}
+.stiky{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+   background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .top-nav{
+    display: flex;
+    margin-right: 10px;
+}
+.header nav ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+.header .top-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.header .top-icons i{
+    padding: 17px;
+}
+.header .navbar a{
+
+    margin: 0 1rem;
+    font-size: 1.0rem;
+    color: #fff;
+}
+.header .navbar ul li a {
+    padding: 17px;
+    text-decoration: none;
+}
+.header .top-nav .navbar ul li a:hover{
+    color: #5aacef;
+}
+.header .top-nav .top-icons i:hover{
+    color: #5aacef;
+}
+
+a{
+    text-decoration: none;
+
+}
+.bnj{
+    position: relative;
+    top: 99px;
+    display: flex;
+    background-color: rgb(18, 19, 19);
+    justify-content: space-between;
+    color: aliceblue;
+    height: 100px;
+    border-bottom: 0.1px solid rgb(86, 86, 82);
+}
+.bnj h1{
+    margin-left: 50px;
+}
+.bnj .logout{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background-color: #5aacef;
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    margin-top: 50px;
+    position: relative;
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid #324960; 
+}
+
+
+.form {
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    box-shadow: #efe9e9 0 0 0 3px, transparent 0 0 0 0;
+
+}
+#miseajour{
+    margin-left: 90px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+    border-radius: 6px;
+    width: 150px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    color: #121212;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1;
+  user-select: none;
+}
+#miseajour:hover{
+    background-color: #5aacef;
+}
+
+#addremove:hover{
+    background-color: #5aacef;
+}
+/* Styles pour les formulaires d'ajout de produit */
+[id^="addForm"] {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+/* Styles pour les formulaires de suppression de produit */
+[id^="deleteForm"] {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+
+.user-management{
+    margin-bottom: 70px;
+}
+.management{
+    display: flex;
+}
+.formm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-64{
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+#inpt{
+    padding: 10px;
+}
+
+.user-info table {
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+.user-info table th,
+.user-info table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.user-info table th {
+    background-color: #324960;
+    color: white;
+}
+.user-info table td input {
+    width: 100%;
+    padding: 5px;
+}
+#change{
+    padding: 10px;
+}
+body { 
+    font-size: 140%; 
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  table caption {
+      padding: .2em 0;
+  }
+  
+  table th,
+  table td {
+    white-space: nowrap;
+  }
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
+  table thead {
+    color: #ffffff;
+    background: #324960;
+}
+table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+table tbody tr:nth-child(odd) {
+    background: none;
+}
+table tr:nth-child(even) {
+    background: transparent;
+}
+.management form button{
+    padding: 0 20px;
+    background-color: #324960;
+    color: white;
+}
+.management form button:hover{
+    background-color: #00DDEB;
+    border: none;
+}
+#suppr{
+    padding: 20px;
+}
+#suppr button{
+    padding: 17px;
+    border-radius: 5px;
+    background-color: #324960;
+    line-height: 0cqi;
+    color: white;
+}
+#suppr button:hover{
+    background-color: #5aacef;
+}
+
+.prof{
+    background-color: white;
+}
+.prof h2{
+    margin-top: 50px;
+    color: #121212;
+}
